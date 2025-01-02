@@ -1,10 +1,11 @@
 // ./app.js
 
-const express = require('express');
+import express from 'express';
+
 const app = express();
 
 // Add all middlewares here
 app.use(express.json());
 
 
-module.exports = app;
+export default app;

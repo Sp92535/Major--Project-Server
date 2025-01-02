@@ -1,9 +1,9 @@
 // ./db/sync.js
 
-const { sequelize } = require('./index.js');
+import { sequelize } from './index.js';
 
 // Register the models here
-const User = require('../models/User');
+import User from '../models/User.js';
 
 
 const syncDatabase = async () => {

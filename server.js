@@ -1,8 +1,10 @@
 // ./server.js
 
-const app = require('./app')    // express imported
-require('./db/sync')            // DB connected and synced
-require('dotenv').config()        // .env
+import app from './app.js';    // express imported
+import './db/sync.js';            // DB connected and synced
+import dotenv from 'dotenv'
+
+dotenv.config()        // .env
 
 const port = process.env.SERVERPORT
 

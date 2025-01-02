@@ -4,7 +4,7 @@
   "description": "Major Project ",
   "license": "ISC",
   "author": "SP",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
